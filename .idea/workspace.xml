@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c07ea23-310f-4509-b525-391882749667" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/lab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/lab.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/ng.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/three.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/two.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b48f1608c9abfeea899234d0ec4fe045a94760a4/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b48f1608c9abfeea899234d0ec4fe045a94760a4/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/lab.js" afterPath="$PROJECT_DIR$/js/lib/lab.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,33 +32,33 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.5" vertical-offset="185" max-vertical-offset="1515">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state vertical-scroll-proportion="-36.875" vertical-offset="0" max-vertical-offset="1575">
+              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1396218121000" expanded="true" signature="2473:2716" placeholder="..." />
-                <marker date="1396218121000" expanded="true" signature="2524:2700" placeholder="..." />
-                <marker date="1396218121000" expanded="true" signature="2555:2685" placeholder="..." />
+                <marker date="1396221134000" expanded="true" signature="2473:2716" placeholder="..." />
+                <marker date="1396221134000" expanded="true" signature="2524:2700" placeholder="..." />
+                <marker date="1396221134000" expanded="true" signature="2555:2685" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lab.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lab.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/lib/lab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19970414" vertical-offset="0" max-vertical-offset="1352">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="630">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-47.666668" vertical-offset="4046" max-vertical-offset="5400">
-              <caret line="346" column="20" selection-start-line="346" selection-start-column="20" selection-end-line="346" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.4570783" vertical-offset="1943" max-vertical-offset="5595">
+              <caret line="170" column="26" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -100,9 +87,9 @@
         <option value="$PROJECT_DIR$/js/lib/core.js" />
         <option value="$PROJECT_DIR$/js/lib/canvas.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/lib/lab.js" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -487,14 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.666668" vertical-offset="4046" max-vertical-offset="5400">
-          <caret line="346" column="20" selection-start-line="346" selection-start-column="20" selection-end-line="346" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/canvas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5824176" vertical-offset="375" max-vertical-offset="1755">
@@ -505,21 +484,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.5" vertical-offset="185" max-vertical-offset="1515">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state vertical-scroll-proportion="-36.875" vertical-offset="0" max-vertical-offset="1575">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1396218121000" expanded="true" signature="2473:2716" placeholder="..." />
-            <marker date="1396218121000" expanded="true" signature="2524:2700" placeholder="..." />
-            <marker date="1396218121000" expanded="true" signature="2555:2685" placeholder="..." />
+            <marker date="1396221134000" expanded="true" signature="2473:2716" placeholder="..." />
+            <marker date="1396221134000" expanded="true" signature="2524:2700" placeholder="..." />
+            <marker date="1396221134000" expanded="true" signature="2555:2685" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/lab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19970414" vertical-offset="0" max-vertical-offset="1352">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="630">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4570783" vertical-offset="1943" max-vertical-offset="5595">
+          <caret line="170" column="26" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
           <folding />
         </state>
       </provider>

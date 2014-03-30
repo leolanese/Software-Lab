@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Life+Savers);
 
+$font: 2em;
+
 canvas {
   z-index: 9;
   position: absolute;
@@ -16,44 +18,53 @@ canvas {
 }
 
 
-html {background: rgb(219,219,219)}
+html {
+  background: rgb(219,219,219);
+}
 
 a {
   text-decoration: none;
-  color: #808080;
+  color: #000;
 }
 
-#jumper{
-  position:relative;
+
+section {
+
+  article {
+    display: block;
+  }
+
+}
+
+#jumper {
+  position: relative;
   margin: 0 auto;
   font-size: .6em;
   padding-bottom: 22px;
   width: 100%;
-}
+  height: 90px;
+  right: -70px;
 
-#jumper div{
-  -webkit-perspective:500px;
-  -moz-perspective:500px;
-  -webkit-perspective-origin:50% 0;
-  -moz-perspective-origin:50% 0;
-}
+  div {
+    -webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    -webkit-perspective-origin: 50% 0;
+    -moz-perspective-origin: 50% 0;
 
-#jumper div p{
-  margin: 0;
-  padding: 3px;
-  font-family:'Life Savers', cursive;
-  text-align:center;
-}
+    p {
+      margin: 0;
+      padding: 3px;
+      font-family: 'Life Savers', cursive;
+      text-align: center;
+    }
 
+  }
+
+}
 
 div.desc div span {
   padding:0 15px 15px 0;
 }
-
-
-$font: 2em;
-
-
 
 #jumper div p.replay{
   -webkit-animation-play-state:running;
@@ -64,11 +75,6 @@ $font: 2em;
   font-size: $font;
 }
 
-iframe {
-  width: 100% !important;
-}
-
-
 * {
   margin:0;
   padding:0;
@@ -78,35 +84,14 @@ body {
   font-weight:300;
   text-align: left;
   text-decoration: none;
-  height: 500px;
+  overflow: hidden;
 }
-
-body {
-overflow: hidden;
-}
-
-
-.gradient {
-  /* Center Positioning */
-  width: 600px;
-  height: 600px;
-  position: fixed;
-  left: 50%;
-  top: 30%;
-  margin-left: -300px;
-  margin-top: -300px;
-  z-index: -2;
-
-
-}
-
 
 #mainNav {
   padding:0;
   margin:0;
   list-style:none;
 }
-
 
 .centre a img:hover  {
   transform: scale(1,2);
@@ -158,6 +143,37 @@ svg {
   height: 49px;
 }
 
+.circular {
+  width: 6em;
+  height: 6em;
+  border-radius: 1em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  background: url('../img/leo-lanese.gif') no-repeat;
+}
+
+.circular img {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.cor {
+  font-size: 4em;
+  display: inline-block;
+  transform: scale(2, 5);
+  -webkit-transform: scale(2, 5);
+  -moz-transform: scale(2, 5);
+  -ms-transform: scale(2, 5);
+  -o-transform: scale(2, 5);
+  position: relative;
+  left: 145px;
+  top: -110px;
+  font-family: sans-serif;
+}
+
+.sm {
+}
+
 .desc{
   font-family: 'Life Savers', cursive;
   position: relative;
@@ -177,10 +193,7 @@ svg {
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5);
   }
 
-
 }
-
-
 
 .corner .title {
   white-space: nowrap;
@@ -251,12 +264,12 @@ li{
   margin:2px 0 0 15px;
 }
 
-.green.button, .green.button:visited		{
+.green.button, .green.button:visited{
   background-color: #91bd09;
   margin:12px 0 0 100px;
 }
 
-.green.button:hover				            {
+.green.button:hover	{
   background-color: #749a02;
   margin:12px 0 0 100px;
 }

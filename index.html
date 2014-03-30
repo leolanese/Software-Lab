@@ -12,7 +12,7 @@
     <meta name="keywords" content="JavaScript, HTML5,CSS3,JSON,HTML5,Mobile,XML,PHP,smartPhones,UX" />
     <meta name="keywords" content="Leo Lanese,Leonardo Lanese,Responsive Web Design,Progressive enhancement,Web Developer,HTML5,javascript, BDD/TDD,Mobile Web Developer,iOS,Android,Iphone" />
 
-    <meta content="height=device-height,width=device-width,initial-scale=-1.0,user-scalable=1" name="viewport" />
+    <meta content="height=device-height,width=device-width,initial-scale=-1.0,user-scalable=0" name="viewport" />
 
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="apple-touch-icon" href="./images/cv.png" />
@@ -57,7 +57,7 @@
 
     <article class="desc" itemscope itemtype="http://schema.org/Person" ng-controller="LabelCtrl">
         <span itemprop="name">{{name}}</span></br>
-        <span itemprop="jobTitle">{{jobTitle}}</span>
+        <span itemprop="jobTitle">{{jobTitle}}</span></br>
         <span itemprop="description">{{description}}</span>
         <span itemprop="workLocation">{{workLocation}}</span>
     </article>
@@ -71,10 +71,16 @@
         <div><p>{{skill6}}</p></div>
     </article>
 
+    <article class="sm">
+        <div class="circular"><img src="" alt="" /></div>
+        <div class="cor">{</div>
+
+    </article>
+
 
     <article class="desc" ng-controller="FooterCtrl">
         <span itemprop="url" ><a  href="http://www.leolanese.com/blog/">{{t6}}</a></span></br>
-        <span itemprop="url" ><a href="www.twiiter.com/leolaneseltd/">{{t7}}</a></span></br>
+        <span itemprop="url" ><a href="https://twitter.com/LeoLaneseltd">{{t7}}</a></span></br>
         <span itemprop="email" ><a href="mailto:javascript@leolanese.com" >{{t8}}</a></span>
     </article>
 
@@ -83,9 +89,7 @@
 <!-- MVC AngularJS -->
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
 
-
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
 
 <script src="./js/lib/canvas.js"></script>
 <script src="./js/lib/lab.js"></script>
