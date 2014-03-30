@@ -14,31 +14,6 @@ module.exports = function(grunt) {
             www: '/Users/Leo/Documents/root/lab/www'
 
         },
-/*
-        // debugging: grunt less:development
-        less: {
-            // name module
-            development: {
-                options: {
-                    compress: true,
-
-                    // To enable, set sourceMap to true and update sourceMapRootpath based on your install
-                    // sourceMap needs grunt-contrib-less > 0.9.0
-                    sourceMap: true,
-                    sourceMapFilename: 'css/main.css.map', // where file is generated and located
-
-                    sourceMapURL: '/rcv/css/main.css.map',
-                    sourceMapRootpath: '/rcv/'
-                },
-
-                files: {
-                    // 'destination': 'source'
-                    '<%= meta.root  %>/css/core.css': './less/core.less',
-                    '<%= meta.root  %>/css/portfolio.css': './less/portfolio.less'
-                }
-            }
-        },
-*/
 
         sass: {  // Task
 
