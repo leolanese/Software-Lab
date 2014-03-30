@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 options: {
                     style: 'expanded',
                     debugInfo: true,
-                    sourcemap: true
+                    sourcemap: false
                 },
                 files: {
                         '<%= meta.root  %>/css/main.css' : '<%= meta.root  %>/scss/main.scss'

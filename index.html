@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Leo Lanese" />
+    <meta name="keywords" content="JavaScript, HTML5,CSS3,JSON,HTML5,Mobile,XML,PHP,smartPhones,UX" />
+    <meta name="keywords" content="Leo Lanese,Leonardo Lanese,Responsive Web Design,Progressive enhancement,Web Developer,HTML5,javascript, BDD/TDD,Mobile Web Developer,iOS,Android,Iphone" />
+
+    <meta content="height=device-height,width=device-width,initial-scale=-1.0,user-scalable=1" name="viewport" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="apple-touch-icon" href="./images/cv.png" />
+
+    <!-- Favicon 32x32 png -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/apple-touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/apple-touch-icon-iphone4.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/apple-touch-icon-ipad3.png">
+
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-iphone.png">
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-ipad.png">
+    <!-- For iPhone with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precminErromposed" sizes="114x114" href="/img/apple-touch-icon-iphone4.png">
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad3.png">
+
+    <title>Lab &bull; Leo Lanese</title>
+</head>
+
+<body>
+<article style="left:0px">
+
+    <!--[if lt IE 8]>
+    <fieldset class="disclaimer">
+        <legend>Disclaimer:</legend>
+        <div>
+            <p class="buttom">Disclamer: This site is optimize for: IE 9+, FireFox, Safari, Chrome, Opera or Camino.
+            Please update your browser.</p>
+        </div>
+    </fieldset>
+    <![endif]-->
+    <noscript>Sorry, your browser does not support JavaScript. Please, update you browser engine.</noscript>
+</article>
+
+<canvas id="canvas"></canvas>
+
+<section id="wrapper" ng-app="myApp">
+
+    <article class="desc" itemscope itemtype="http://schema.org/Person" ng-controller="LabelCtrl">
+        <span itemprop="name">{{name}}</span></br>
+        <span itemprop="jobTitle">{{jobTitle}}</span>
+        <span itemprop="description">{{description}}</span>
+        <span itemprop="workLocation">{{workLocation}}</span>
+    </article>
+
+    <article id="jumper" ng-controller="MainCtrl" >
+        <div><p>{{skill1}}</p></div>
+        <div><p>{{skill2}}</p></div>
+        <div><p>{{skill3}}</p></div>
+        <div><p>{{skill4}}</p></div>
+        <div><p>{{skill5}}</p></div>
+        <div><p>{{skill6}}</p></div>
+    </article>
+
+
+    <article class="desc" ng-controller="FooterCtrl">
+        <span itemprop="url" ><a  href="http://www.leolanese.com/blog/">{{t6}}</a></span></br>
+        <span itemprop="url" ><a href="www.twiiter.com/leolaneseltd/">{{t7}}</a></span></br>
+        <span itemprop="email" ><a href="mailto:javascript@leolanese.com" >{{t8}}</a></span>
+    </article>
+
+</section>
+
+<!-- MVC AngularJS -->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+<script src="./js/lib/canvas.js"></script>
+<script src="./js/lib/lab.js"></script>
+
+
+</body>
+</html>
