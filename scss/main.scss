@@ -1,6 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Life+Savers);
 
+/*
+ using compass: A collection of mixins with an updater
+*/
+
 $font: 2em;
+
+
+html {
+  background: rgb(219,219,219);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
 
 canvas {
   z-index: 9;
@@ -17,15 +31,6 @@ canvas {
   content: '\039e';
 }
 
-
-html {
-  background: rgb(219,219,219);
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
 
 
 section {
@@ -103,7 +108,9 @@ body {
 
 
 .left img{
-  margin-left:3%;border-style: none}
+  margin-left:3%;
+  border-style: none;
+}
 
 .disclaimer{
   position:absolute;
@@ -174,9 +181,6 @@ svg {
   font-family: sans-serif;
 }
 
-.sm {
-}
-
 .desc{
   font-family: 'Life Savers', cursive;
   position: relative;
@@ -230,15 +234,16 @@ svg {
 }
 
 #light{
-  background-color:#FFF;
+  background-color: #FFF;
   border:1px solid #dedede;
-  padding:10px;
-  margin-top:20px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 
 li{
-  list-style:none;padding-bottom:10px;
+  list-style: none;
+  padding-bottom: 10px;
 }
 
 .button {
@@ -277,8 +282,15 @@ li{
   margin:12px 0 0 100px;
 }
 
-form { margin: 100px auto; position: relative; }
-form div { margin: 10px 0; position: relative; }
+form {
+  margin: 100px auto;
+  position: relative;
+}
+
+form div {
+  margin: 10px 0;
+  position: relative;
+}
 
 input[type="text"], input[type="password"] {
   -webkit-border-radius: 7px;
@@ -349,7 +361,6 @@ label {
   }
 
 }
-
 
 @media (min-width:600px) {
 

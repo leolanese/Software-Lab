@@ -15,7 +15,25 @@ module.exports = function(grunt) {
 
         },
 
-        sass: {  // Task
+        compass: {                  // Task
+
+            dist: {                   // Target
+                options: {              // Target options
+                    sassDir: 'sass',
+                    cssDir: 'css',
+
+                    environment: 'production',
+                    outputStyle: 'compressed',
+                    noLineComments: true
+                },
+                files: {
+                    '<%= meta.root  %>/css/main.css' : '<%= meta.root  %>/scss/main.scss'
+                }
+            }
+
+        },
+
+        sass: {  // sassy css Task. Using compass instead.
 
             dist: {  // Target
                 options: {
@@ -29,6 +47,7 @@ module.exports = function(grunt) {
             }
         },
 
+
         jshint: {
             options: {
                 // Specifying JSHint options and globals
@@ -36,6 +55,7 @@ module.exports = function(grunt) {
             },
             files: ['Gruntfile.js', './js/**/*.js']
         },
+
 
         jasmine: {
             pivotal: {
@@ -46,7 +66,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-
 
         // watching tasks
         watch: {
@@ -63,20 +82,29 @@ module.exports = function(grunt) {
 
             // Watch for JS changes, linting the JS and copying direct to deployment directory.
             scripts: {
-                files: ['Gruntfile.js', 'server.js', '<%= meta.www  %>/**/*.js', '<%= meta.www  %>/tests/**/*.js'],
-                tasks: ['sass:dist', 'jshint']
+                files: ['Gruntfile.js', 'server.js', '<%= meta.root  %>/js/lib/*.js', '<%= meta.www  %>/tests/**/*.js'],
+                tasks: ['compass:dist', 'jshint']
+            },
+
+
+            // Watch for SASS changes, building CSS directly into deployment directory.
+            sass: {
+                files: ['<%= meta.root %>/scss/**/*.scss'],
+                tasks: ['compass:direct']
             }
         }
 
     });
+
 
     // Load required modules
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-compass');
 
 
     // Task definitions
-    grunt.registerTask('default', ['watch', 'jshint', 'sass']);
+    grunt.registerTask('default', ['watch', 'jshint', 'compass']);
 };

@@ -1,19 +1,19 @@
 var giveSize = function() {
-    var myWidth = 0, myHeight = 0;
+    "use strict";
+
+    var myWidth, myHeight = 0;
 
     if( typeof( window.innerWidth ) === 'number' ) {
         //Non-IE
         myWidth = window.innerWidth;
         myHeight = window.innerHeight;
-    } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+    } else if( document.documentElement && ( document.documentElement.clientWidth ||
+        document.documentElement.clientHeight ) ) {
         //IE 6+ in 'standards compliant mode'
         myWidth = document.documentElement.clientWidth;
         myHeight = document.documentElement.clientHeight;
-    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
-        //IE 4 compatible
-        myWidth = document.body.clientWidth;
-        myHeight = document.body.clientHeight;
     }
+
     // return Object Lilteral
     return {
         'W': myWidth,
@@ -23,7 +23,7 @@ var giveSize = function() {
 };
 
 //Function to create circles with different positions and velocities
-var create_circle = function(){
+var createCircle = function(){
     'use strict';
 
     var result = giveSize(), W = result.W, H = result.H;
@@ -42,10 +42,11 @@ var create_circle = function(){
     this.rad = 10 + Math.random() * 33;
 };
 
-var circles = []; // array containing the circles
-var num = 21; // number of circles
+var circles = [], // array containing the circles
+        num = 21; // number of circles
+
 for(var i=0; i < num; i++ ){
-    circles.push(new create_circle());
+    circles.push(new createCircle());
 }
 
 var flicks = function() {
@@ -61,13 +62,16 @@ var flicks = function() {
 
 //Function to draw the background
 var drawCircle = function() {
-    var canvasId = document.getElementById('canvas');
-    var idGetContext = canvasId.getContext("2d");
+    'use strict';
 
-    var result = giveSize();
-    /*    console.log(result.W);
-     console.log(result.H);*/
+    var canvasId = document.getElementById('canvas'),
+         idGetContext = canvasId.getContext("2d"),
+         result = giveSize();
+/*
+    console.log(result.W);
+    console.log(result.H);
 
+*/
     var W = result.W, H = result.H;
 
     canvasId.width = W;
@@ -77,6 +81,7 @@ var drawCircle = function() {
     var grad = idGetContext.createLinearGradient(0, 0, W, H);
     grad.addColorStop(0, 'rgb(206,114,30)');
     grad.addColorStop(1, 'rgb(219,219,219)');
+
 
     //Fill the canvas with the gradient
     idGetContext.globalCompositeOperation = "darker"; //lighter

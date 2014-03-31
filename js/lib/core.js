@@ -42,6 +42,4 @@ var PORT = (function(){
 
     };
 
-    return aug;
-
 }(PORT));
