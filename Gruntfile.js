@@ -95,6 +95,18 @@ module.exports = function(grunt) {
             }
         },
 
+        uncss: {
+            dist: {
+                options: {
+                    ignoreSheets : [/fonts.googleapis/]
+                },
+                files: {
+                    // HTML files you would like scanned
+                    'css/main.css': ['./index.html']
+                }
+            }
+        },
+
         // watching tasks
         watch: {
 
@@ -132,6 +144,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-responsive-images');
+    grunt.loadNpmTasks('grunt-uncss');
 
 
     // Task definitions
