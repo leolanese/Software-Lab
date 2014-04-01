@@ -1,6 +1,6 @@
 {
     "bitwise": true,
-    "camelcase": true,
+    "camelcase": false,
     "curly": true,
     "eqeqeq": true,
     "es3": false,
@@ -10,7 +10,8 @@
         "console": false,
         "process": false,
         "Dash": false,
-        "MediaPlayer": false
+        "MediaPlayer": false,
+        "globalstrict": true
     },
     "strict": true,
     "trailing": true,
@@ -45,10 +46,7 @@
     "sub": false,
     "supernew": false,
     "validthis": false,
-
-
     "browser": true,
-
 
     "-W099": false,
     "-W065": false,

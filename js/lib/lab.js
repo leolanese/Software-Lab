@@ -1,34 +1,30 @@
-"use strict";
-
-var myApp = angular.module('myApp', []);
+var myApp = window.angular.module('myApp', []);
 
 myApp.controller('MainCtrl', ['$scope', function ($scope) {
-    $scope.skill1 = 'javascript',
-    $scope.skill2 = 'HTML5',
-    $scope.skill3 = 'CSS3',
-    $scope.skill4 = 'RWD',
-    $scope.skill5 = 'MVC',
-    $scope.skill6 = 'TDD/BDD'
+    "use strict";
+
+    $scope.skill1 = 'javascript';
+    $scope.skill2 = 'HTML5';
+    $scope.skill3 = 'CSS3';
+    $scope.skill4 = 'RWD';
+    $scope.skill5 = 'MVC';
+    $scope.skill6 = 'TDD/BDD';
 
 }]);
 myApp.controller('LabelCtrl', ['$scope', function ($scope) {
+    "use strict";
+
     $scope.name = "I'm Leo.";
     $scope.jobTitle = "I'm a Front-end Developer";
     $scope.workLocation = "I'm in London, UK";
 }]);
 myApp.controller('FooterCtrl', ['$scope', function ($scope) {
+    "use strict";
+
     $scope.t6 = "Blog";
     $scope.t7 = "Twitter";
     $scope.t8 = "e-mail";
 }]);
 
 
-setInterval(drawCircle, 2);
-
-document.addEventListener(
-    'touchmove',
-    function(e) {
-        e.preventDefault();
-    },
-    false
-);
+setInterval(window.drawCircle, 2);

@@ -31,7 +31,12 @@ canvas {
   content: '\039e';
 }
 
-
+.circular:hover {
+    cursor:pointer;
+    -webkit-transform:scale(1.2) ;
+    -moz-transform:scale(1.2) ;
+    transform:scale(1.2) ;
+}
 
 section {
 
@@ -66,6 +71,7 @@ section {
   }
 
 }
+
 
 div.desc div span {
   padding:0 15px 15px 0;
@@ -156,7 +162,7 @@ svg {
   border-radius: 1em;
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
-  background: url('../img/leo-lanese.gif') no-repeat;
+  background: url('../img/source/leo-lanese.gif') no-repeat;
   left: 5px;
   position: relative;
 

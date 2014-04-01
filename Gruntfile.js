@@ -67,6 +67,26 @@ module.exports = function(grunt) {
             }
         },
 
+        responsive_images: {
+            myTask: {
+                options: {
+                    sizes: [{
+                        width: 320
+                    },{
+                        width: 640
+                    },{
+                        width: 1024
+                    }]
+                },
+                files: [{
+                    expand: true,
+                    src: ['<%= meta.root  %>/img/source/**.{jpg,gif,png}'],
+                    cwd: 'test/',
+                    dest: '<%= meta.root  %>/img/tmp/'
+                }]
+            }
+        },
+
         // watching tasks
         watch: {
 
@@ -90,7 +110,7 @@ module.exports = function(grunt) {
             // Watch for SASS changes, building CSS directly into deployment directory.
             sass: {
                 files: ['<%= meta.root %>/scss/**/*.scss'],
-                tasks: ['compass:direct']
+                tasks: ['compass:dist']
             }
         }
 
@@ -103,8 +123,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jasmine');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-compass');
+    grunt.loadNpmTasks('grunt-responsive-images');
 
 
     // Task definitions
-    grunt.registerTask('default', ['watch', 'jshint', 'compass']);
+    grunt.registerTask('default', ['watch', 'jshint', 'compass', 'responsive_images' ]);
 };
