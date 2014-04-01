@@ -7,6 +7,10 @@
 $font: 2em;
 
 
+.face {
+  display: none;
+}
+
 html {
   background: rgb(219,219,219);
 }
@@ -53,7 +57,7 @@ section {
   padding-bottom: 22px;
   width: 100%;
   height: 90px;
-  left: 120px;
+
 
   div {
     -webkit-perspective: 500px;
@@ -156,7 +160,7 @@ svg {
   height: 49px;
 }
 
-.circular {
+.circular span {
   width: 6em;
   height: 6em;
   border-radius: 1em;
@@ -182,8 +186,8 @@ svg {
   -ms-transform: scale(2, 6);
   -o-transform: scale(2, 6);
   position: relative;
-  left: 145px;
-  top: -80px;
+  left: 40px;
+  top: -30px;
   font-family: sans-serif;
 }
 
@@ -205,6 +209,17 @@ svg {
     margin-bottom: 1px;
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5);
   }
+
+}
+
+.links {
+  position: fixed;
+  bottom: 0;
+}
+
+.face {
+
+  padding: 5px;
 
 }
 
@@ -353,8 +368,11 @@ label {
   text-align: right;
 }
 
-
 @media (min-width:320px) {
+
+  .face {
+    display: inline;
+  }
 
   #wrapper {
     width: 480px;
@@ -362,8 +380,14 @@ label {
     margin: 0 auto;
   }
 
-  #jumper p {
-    font-size: 3em;
+  #jumper {
+
+    left: 120px;
+
+    p {
+      font-size: 3em;
+    }
+
   }
 
 }
@@ -384,4 +408,24 @@ and (orientation : landscape) {
     display: none;
   }
 
+}
+
+
+/*  picturefill media-queries */
+@media (min-width: 400px) {
+  .bg-img{
+    background-image:url(http://i.imgbox.com/adkVf9kg.jpg);
+  }
+}
+
+@media (min-width: 800px) {
+  .bg-img{
+    background-image:url(http://i.imgbox.com/adbzuoo7.jpg);
+  }
+}
+
+@media (min-width: 1000px) {
+  .bg-img{
+    background-image:url(http://i.imgbox.com/acpj1C0W.jpg);
+  }
 }

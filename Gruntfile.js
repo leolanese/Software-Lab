@@ -48,12 +48,13 @@ module.exports = function(grunt) {
         },
 
 
+
         jshint: {
             options: {
                 // Specifying JSHint options and globals
                 jshintrc: '.jshintrc'
             },
-            files: ['Gruntfile.js', './js/**/*.js']
+            files: ['Gruntfile.js', './js/lib/*.js']  // libext are not under jshint
         },
 
 
@@ -67,22 +68,29 @@ module.exports = function(grunt) {
             }
         },
 
+        // The responsive_images task will take your source image and create images at different resolutions for use
+
         responsive_images: {
             myTask: {
                 options: {
                     sizes: [{
+                        name: "small",
                         width: 320
                     },{
+                        name: 'medium',
                         width: 640
                     },{
+                        name: 'large',
                         width: 1024
                     }]
                 },
+
+
                 files: [{
                     expand: true,
                     src: ['<%= meta.root  %>/img/source/**.{jpg,gif,png}'],
-                    cwd: 'test/',
-                    dest: '<%= meta.root  %>/img/tmp/'
+                    cwd: '',
+                    custom_dest: 'img/size/{%= width %}/'
                 }]
             }
         },

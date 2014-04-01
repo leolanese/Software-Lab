@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c07ea23-310f-4509-b525-391882749667" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lib/three.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/leo-lanese.gif" afterPath="$PROJECT_DIR$/img/source/leo-lanese.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/extlib/matchmedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/extlib/picturefill.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/leo-lanese.gif" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b48f1608c9abfeea899234d0ec4fe045a94760a4/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b48f1608c9abfeea899234d0ec4fe045a94760a4/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/canvas.js" afterPath="$PROJECT_DIR$/js/lib/canvas.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/lab.js" afterPath="$PROJECT_DIR$/js/lib/lab.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab.iws" />
@@ -37,27 +34,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1637744" vertical-offset="832" max-vertical-offset="2040">
-              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state vertical-scroll-proportion="-38.875" vertical-offset="357" max-vertical-offset="1845">
+              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1396355550000" expanded="true" signature="2474:2717" placeholder="..." />
+                <marker date="1396355550000" expanded="true" signature="2525:2701" placeholder="..." />
+                <marker date="1396355550000" expanded="true" signature="2556:2686" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44535744" vertical-offset="5233" max-vertical-offset="6555">
+              <caret line="385" column="4" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="picturefill.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/extlib/picturefill.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-38.916668" vertical-offset="341" max-vertical-offset="1710">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1396342661000" expanded="true" signature="2473:2716" placeholder="..." />
-                <marker date="1396342661000" expanded="true" signature="2524:2700" placeholder="..." />
-                <marker date="1396342661000" expanded="true" signature="2555:2685" placeholder="..." />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="2160">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,13 +101,18 @@
         <option value="$PROJECT_DIR$/js/lib/ng.js" />
         <option value="$PROJECT_DIR$/js/lib/one.js" />
         <option value="$PROJECT_DIR$/js/lib/core.js" />
-        <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/js/lib/canvas.js" />
         <option value="$PROJECT_DIR$/js/lib/lab.js" />
         <option value="$PROJECT_DIR$/.jshintrc" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/js/lib/Imager.js" />
+        <option value="$PROJECT_DIR$/js/lib/picturefill.js" />
+        <option value="$PROJECT_DIR$/js/lib/matchmedia.js" />
+        <option value="$PROJECT_DIR$/js/extlib/picturefill.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -160,7 +184,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="size" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,6 +293,7 @@
       <recent name="$PROJECT_DIR$/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/extlib" />
       <recent name="$PROJECT_DIR$/img/source" />
     </key>
   </component>
@@ -264,14 +375,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="22" width="1080" height="1898" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45298672" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27654868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2407932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.203966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -288,7 +399,7 @@
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29480088" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27654868" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -300,7 +411,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16619453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.203966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -339,10 +450,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1575">
           <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1396342661000" expanded="true" signature="2473:2716" placeholder="..." />
-            <marker date="1396342661000" expanded="true" signature="2524:2700" placeholder="..." />
-            <marker date="1396342661000" expanded="true" signature="2555:2685" placeholder="..." />
+            <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1396355550000" expanded="true" signature="2474:2717" placeholder="..." />
+            <marker date="1396355550000" expanded="true" signature="2525:2701" placeholder="..." />
+            <marker date="1396355550000" expanded="true" signature="2556:2686" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -426,14 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.0" vertical-offset="375" max-vertical-offset="5895">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/canvas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2025">
@@ -466,31 +569,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.jshintrc">
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025062656" vertical-offset="0" max-vertical-offset="1197">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.29656607" vertical-offset="0" max-vertical-offset="961">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.916668" vertical-offset="341" max-vertical-offset="1710">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1396342661000" expanded="true" signature="2473:2716" placeholder="..." />
-            <marker date="1396342661000" expanded="true" signature="2524:2700" placeholder="..." />
-            <marker date="1396342661000" expanded="true" signature="2555:2685" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-9.3" vertical-offset="0" max-vertical-offset="885">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/extlib/matchmedia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="438" selection-start-line="1" selection-start-column="438" selection-end-line="1" selection-end-column="438" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1637744" vertical-offset="832" max-vertical-offset="2040">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="2160">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/extlib/picturefill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.875" vertical-offset="357" max-vertical-offset="1845">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1396355550000" expanded="true" signature="2474:2717" placeholder="..." />
+            <marker date="1396355550000" expanded="true" signature="2525:2701" placeholder="..." />
+            <marker date="1396355550000" expanded="true" signature="2556:2686" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44535744" vertical-offset="5233" max-vertical-offset="6555">
+          <caret line="385" column="4" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
           <folding />
         </state>
       </provider>
