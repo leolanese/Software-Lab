@@ -1,7 +1,5 @@
 node_modules
 .tmp
 .sass-cache
-.jpg
-.png
-.gif
 .DS_Store
+.idea/
