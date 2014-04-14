@@ -68,8 +68,12 @@ module.exports = function(grunt) {
             }
         },
 
-        // The responsive_images task will take your source image and create images at different resolutions for use
-
+        // The responsive_images task will take your source image and
+        // create images at different resolutions for use
+        // needs: GraphicsMagick or ImageMagick
+        // brew install GraphicsMagick
+        // or
+        // brew install ImageMagick
         responsive_images: {
             myTask: {
                 options: {
