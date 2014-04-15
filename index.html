@@ -38,6 +38,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad3.png">
 
     <title>Lab &bull; Leo Lanese</title>
+    <!--
+    01101100 01100101 01101111 01101100 01100001 01101110 01100101 01110011 01100101 00001010
+    -->
 
 </head>
 
@@ -56,7 +59,7 @@
 
 <canvas id="canvas"></canvas>
 
-<section id="wrapper" ng-app="myApp">
+<section id="wrapper" ng-app="myLabApp">
 
     <article class="desc" itemscope itemtype="http://schema.org/Person" ng-controller="LabelCtrl">
         <span itemprop="name">{{name}}</span></br>
@@ -94,23 +97,34 @@
         <span itemprop="email" ><a href="mailto:javascript@leolanese.com" >{{t8}}</a></span>
     </article>
 
+    <footer class="desc links" ng-controller="LoginCtrl">
+        <ul class="menu">
+            <li><a href="#/login" itemprop="login">{{t9}}</a></li>
+            <li><a href="#/index" itemprop="logout">{{t10}}</a></li>
+        </ul>
+    </footer>
+
+    <div id="view" ng-view></div>
+
 </section>
 
-<!-- MVC AngularJS -->
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
-
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="./bower_components/jquery/dist/jquery.min.js.js"><\/script>')</script>
 
-<script src="./js/lib/canvas.js"></script>
-<script src="./js/lib/lab.js"></script>
+
+<!-- MVC AngularJS -->
+<script src="./bower_components/angular/angular.min.js"></script>
+<script src="./bower_components/angular-route/angular-route.min.js"></script>
+
+<!-- core -->
+<script type="text/javascript" src="js/lib/login.js"></script>
+
+<script src="js/lib/canvas.js"></script>
+<script src="js/lib/app.js"></script>
 
 <script src="js/extlib/matchmedia.js"></script>
 <script src="js/extlib/picturefill.js"></script>
 <script src="js/extlib/modernizr.custom.js"></script>
 
-<script>
-
-</script>
 </body>
 </html>

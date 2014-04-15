@@ -1,0 +1,27 @@
+{
+  "name": "Lab",
+  "version": "1",
+  "homepage": "https://github.com/sirwilliam/lab",
+  "authors": [
+    "sirwilliam <developer@leolanese.com>"
+  ],
+  "description": "@leolanese Lab, you can find some interesting code here",
+  "main": "index.html",
+  "keywords": [
+    "lab",
+    "tests"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.2.16",
+    "angular": "~1.2.16",
+    "jquery": "~2.1.0"
+  }
+}
