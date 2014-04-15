@@ -17,6 +17,7 @@ myApp.controller('LabelCtrl', ['$scope', function ($scope) {
     $scope.name = "I'm Leo.";
     $scope.jobTitle = "I'm a Front-end Developer";
     $scope.workLocation = "I'm in London, UK";
+
 }]);
 myApp.controller('FooterCtrl', ['$scope', function ($scope) {
     "use strict";
@@ -24,7 +25,13 @@ myApp.controller('FooterCtrl', ['$scope', function ($scope) {
     $scope.t6 = "Blog";
     $scope.t7 = "Twitter";
     $scope.t8 = "e-mail";
+
 }]);
 
-
 setInterval(window.drawCircle, 2);
+
+$(window).resize(function(){
+    $('#imageSize').text($('.featurette img').attr('src'));
+    $('#bgImageSize').text($('.bg-img').css('background-image'));
+});
+$(window).resize();
