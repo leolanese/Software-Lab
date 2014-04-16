@@ -41,25 +41,18 @@
     <!--
     01101100 01100101 01101111 01101100 01100001 01101110 01100101 01110011 01100101 00001010
     -->
-
 </head>
 
-<!--[if IE ]>
-<body class="ie">
-<![endif]-->
-<!--[if !IE]>-->
 <body>
-<!--<![endif]-->
-
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 <noscript>Sorry, your browser does not support JavaScript. Please, update you browser engine.</noscript>
 
-
 <canvas id="canvas"></canvas>
 
 <section id="wrapper" ng-app="myLabApp">
+    <div class="gradient"></div>
 
     <article class="desc" itemscope itemtype="http://schema.org/Person" ng-controller="LabelCtrl">
         <span itemprop="name">{{name}}</span></br>
@@ -78,7 +71,7 @@
     </article>
 
 
-    <!-- actually, we dont' need a RWD images solution here. This is just an example to show picturefill and grunt task -->
+    <!-- actually, we dont' need a RWD images solution here. This is just an example to show picturefill & grunt task works -->
     <!-- http://jsfiddle.net/leolanese/4ajpN/ -->
     <span class="face">
         <span data-picture data-alt="" data-class="span12" >
@@ -97,10 +90,11 @@
         <span itemprop="email" ><a href="mailto:javascript@leolanese.com" >{{t8}}</a></span>
     </article>
 
+
     <footer class="desc links" ng-controller="LoginCtrl">
         <ul class="menu">
-            <li><a href="#/login" itemprop="login">{{t9}}</a></li>
-            <li><a href="#/index" itemprop="logout">{{t10}}</a></li>
+            <li><a href="#/login" itemprop="login" >{{t9}}</a></li>
+            <li><a href="#/intro" itemprop="logout">{{t10}}</a></li>
         </ul>
     </footer>
 
@@ -111,20 +105,21 @@
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="./bower_components/jquery/dist/jquery.min.js.js"><\/script>')</script>
 
-
 <!-- MVC AngularJS -->
 <script src="./bower_components/angular/angular.min.js"></script>
 <script src="./bower_components/angular-route/angular-route.min.js"></script>
 
+<script src="js/lib/app.js"></script>
+<script src="js/lib/controllers.js"></script>
+
 <!-- core -->
 <script type="text/javascript" src="js/lib/login.js"></script>
-
 <script src="js/lib/canvas.js"></script>
-<script src="js/lib/app.js"></script>
 
-<script src="js/extlib/matchmedia.js"></script>
-<script src="js/extlib/picturefill.js"></script>
-<script src="js/extlib/modernizr.custom.js"></script>
+<!-- extra libs -->
+<script src="./bower_components/matchmedia/matchmedia.js"></script>
+<script src="./bower_components/picturefill/picturefill.js"></script>
+<script src="./bower_components/modernizr/modernizr.js"></script>
 
 </body>
 </html>

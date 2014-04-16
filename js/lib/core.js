@@ -29,13 +29,6 @@ var PORT = (function(){
                 return( this.me );
             }
 
-        },
-
-        // Douglas Crockford default-common class
-        clone: function(o) {
-            function F(){}
-            F.prototype = o;
-            return new F();
         }
 
     };

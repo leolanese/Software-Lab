@@ -1,10 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Life+Savers);
-
 /*
  using compass: A collection of mixins with an updater
 */
 
 $font: 2em;
+$grey: rgb(219,219,219);
 
 
 .face {
@@ -12,7 +11,8 @@ $font: 2em;
 }
 
 html {
-  background: rgb(219,219,219);
+  background: $grey;
+  font-family: Helvetica;
 }
 
 a {
@@ -37,9 +37,9 @@ canvas {
 
 .circular:hover {
     cursor:pointer;
-    -webkit-transform:scale(1.2) ;
-    -moz-transform:scale(1.2) ;
-    transform:scale(1.2) ;
+    -webkit-transform: scale(1.2) ;
+    -moz-transform: scale(1.2) ;
+    transform: scale(1.2) ;
 }
 
 section {
@@ -68,7 +68,6 @@ section {
     p {
       margin: 0;
       padding: 3px;
-      font-family: 'Life Savers', cursive;
       text-align: center;
     }
 
@@ -117,9 +116,12 @@ body {
 }
 
 
-.left img{
-  margin-left:3%;
-  border-style: none;
+.left {
+  img{
+    margin-left:3%;
+    border-style: none;
+  }
+
 }
 
 .disclaimer{
@@ -130,13 +132,11 @@ body {
 }
 
 .right {
-  font-family:'Life Savers', cursive;
   padding-left: 60px;
   color: grey;
 }
 
 .left {
-  font-family:'Life Savers', cursive;
   padding-left: 50px;
   color: grey;
 }
@@ -188,11 +188,9 @@ svg {
   position: relative;
   left: 40px;
   top: -30px;
-  font-family: sans-serif;
 }
 
 .desc{
-  font-family: 'Life Savers', cursive;
   position: relative;
   width: 100%;
   padding: .8em;
@@ -204,7 +202,6 @@ svg {
     -moz-animation: rot .8s ease-in-out 1s backwards;
     -webkit-transform-origin: 50% 0;
     -moz-transform-origin: 50% 0;
-    font-family: 'Life Savers', cursive;
     font-weight: bold;
     margin-bottom: 1px;
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -228,7 +225,6 @@ svg {
   white-space: nowrap;
   z-index: 9999;
   position:relative;
-  font-family:'Life Savers', cursive;
 }
 .corner .text{
   font-weight:italic;
@@ -244,7 +240,6 @@ svg {
 .button{
   margin:2px 0 0 15px;
   border:1px solid #efefef;
-  font-family:'Life Savers', cursive;
 }
 
 #dark{

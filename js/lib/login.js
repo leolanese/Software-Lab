@@ -49,7 +49,7 @@ var nnn = function() {
     };
 
     $('#form').on('click',function(){
-
+        console.log('assad');
         call_login();
 
     });

@@ -30,7 +30,7 @@ var createCircle = function(){
              W = result.W,
              H = result.H;
 
-    //var W = window.innerWidth, H = window.innerHeight;
+    // var W = window.innerWidth, H = window.innerHeight;
 
     //Random Position
     this.x = Math.random() * W;
