@@ -9,19 +9,17 @@
         </text>
     </svg>
 
-    <div class="corner">
+    <div class="corner" >
         <form name="f1">
             <div class="title"><a>Username:</a>
-                <input type="text" name="username" id="user" size="20" value="guest" placeholder="guest"  required="required" ng-model="login.password"/></div>
+                <input type="text" name="username" id="user" size="20" value="guest" placeholder="leo" ng-model="loginUser.username" required /></div>
             <div class="title"><a>Password: </a>
-                <input type="password" id="password" name="password" size="20" value="" required="required" ng-model="login.username" /></div>
+                <input type="password" id="password" name="password" size="20" value="" ng-model="loginUser.password" required /></div>
             <input type="hidden" name="platform" value="desktop">
             <span id="warning" class="warning"></span>
-            <span><a class="small button green" id="form" ng-disabled="checked" ng-click="handleButtonClick()">LOGIN</a></span>
+            <span><a class="small button green" id="form" ng-disabled="checked" ng-click="loginNow()">LOGIN</a></span>
         </form>
     </div>
-
-    <p>Button Clicks: {{buttonClicks}}</p>
 
     <div class="gradient"></div>
 

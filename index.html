@@ -8,6 +8,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
 <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<html ng-app="myLabApp">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet'>
@@ -37,7 +38,7 @@
     <!-- For third-generation iPad with high-resolution Retina display: -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad3.png">
 
-    <title>Lab &bull; Leo Lanese</title>
+    <title ng-controller="titleCtrl">{{t0}}</title>
     <!--
     01101100 01100101 01101111 01101100 01100001 01101110 01100101 01110011 01100101 00001010
     -->
@@ -74,11 +75,12 @@
     <!-- actually, we dont' need a RWD images solution here. This is just an example to show picturefill & grunt task works -->
     <!-- http://jsfiddle.net/leolanese/4ajpN/ -->
     <span class="face">
-        <span data-picture data-alt="" data-class="span12" >
+        <span data-picture data-alt="" data-class="span12" ng-controller="hoverCtrl">
         <span data-src="./img/source/leo.png"></span>
         <span data-src="./img/size/320/leo.png" data-media="(min-width: 400px)"></span>
         <span data-src="./img/size/640/leo.png" data-media="(min-width: 800px)"></span>
-        <span data-src="./img/size/1024/leo.png" data-media="(min-width: 1000px)"></span>
+        <span data-src="./img/size/1024/leo.png" data-media="(min-width: 1000px)"
+              show-message-when-hovered message="Yep, that is me!"></span>
     </span>
     <div class="cor">{</div>
     </span>
@@ -103,13 +105,15 @@
 </section>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script>window.jQuery || document.write('<script src="./bower_components/jquery/dist/jquery.min.js.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="./bower_components/jquery/dist/jquery.js"><\/script>')</script>
 
 <!-- MVC AngularJS -->
-<script src="./bower_components/angular/angular.min.js"></script>
-<script src="./bower_components/angular-route/angular-route.min.js"></script>
+<script src="./bower_components/angular/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.js"></script>
+<script src="./bower_components/angular-route/angular-route.js"></script>
 
 <script src="js/lib/app.js"></script>
+<script src="js/lib/services.js"></script>
 <script src="js/lib/controllers.js"></script>
 
 <!-- core -->
