@@ -133,10 +133,10 @@ body {
   max-width: 9em;
 }
 
-@media (min-width: 405px) {
-  .texto {
-    width: 250px;
+@media (min-width: 500px) {
 
+  .texto {
+    max-width: 280px;
   }
 }
 
@@ -434,7 +434,14 @@ and (orientation : landscape) {
 
 }
 
+@media (min-width:500px){
 
+  .links {
+      padding-top: 2em;
+      font-size: 1.15em;
+  }
+
+}
 
 
 /*  picturefill media-queries */

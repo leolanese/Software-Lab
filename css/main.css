@@ -138,10 +138,10 @@ body {
   max-width: 9em;
 }
 
-@media (min-width: 405px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003137}}
+@media (min-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003138}}
   .texto {
-    width: 250px;
+    max-width: 280px;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003143}}
@@ -454,21 +454,28 @@ label {
     display: none;
   }
 }
+@media (min-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003439}}
+  .links {
+    padding-top: 2em;
+    font-size: 1.15em;
+  }
+}
 /*  picturefill media-queries */
 @media (min-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003442}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003449}}
   .bg-img {
     background-image: url(http://i.imgbox.com/adkVf9kg.jpg);
   }
 }
 @media (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003455}}
   .bg-img {
     background-image: url(http://i.imgbox.com/adbzuoo7.jpg);
   }
 }
 @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003461}}
   .bg-img {
     background-image: url(http://i.imgbox.com/acpj1C0W.jpg);
   }
