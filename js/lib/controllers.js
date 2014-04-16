@@ -64,6 +64,7 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
         $scope.t11 = "I am a front-end developer mobile web strategist and am located in London, UK. I am a passion developer how enjoy create a better code for a better world and improve experiences to look and work beautifully across any environment that can access the web.";
         $scope.t12 = "Login";
         $scope.t15 = "Contact me";
+        $scope.t16 = "Coding a better code for a better world";
 
     })
 

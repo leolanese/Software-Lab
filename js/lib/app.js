@@ -8,6 +8,13 @@ angular.module('myLabApp', [
 ]).
     config(['$routeProvider', function($routeProvider) {
         "use strict";
+
+        $routeProvider.when(
+            '/intro', {
+                templateUrl: 'partials/intro.html',
+                controller: 'moreAboutMeCtrl'
+            });
+
         $routeProvider.when(
             '/skills', {
             templateUrl: 'partials/skills.html',
@@ -18,20 +25,17 @@ angular.module('myLabApp', [
             '/welcome', {
                 templateUrl: 'partials/welcome.html',
                 controller: 'MainCtrl'
-            });
-
-        $routeProvider.when(
-            '/contactme', {
-                templateUrl: 'partials/contactme.html',
-                controller: 'moreAboutMeCtrl'
-            });
+        });
 
         $routeProvider.when(
             '/aboutme', {
                 templateUrl: 'partials/aboutme.html',
                 controller: 'moreAboutMeCtrl'
-            });
+        });
 
+        $routeProvider.otherwise({
+            redirectTo: 'intro'}
+           );
 
     }]);
 
