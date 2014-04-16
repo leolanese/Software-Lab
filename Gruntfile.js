@@ -112,6 +112,19 @@ module.exports = function(grunt) {
             }
         },
 
+        ngmin: {
+            controllers: {
+                src: ['test/src/controllers/one.js'],
+                dest: 'test/generated/controllers/one.js'
+            },
+            directives: {
+                expand: true,
+                cwd: 'test/src',
+                src: ['directives/**/*.js'],
+                dest: 'test/generated'
+            }
+        },
+
         // watching tasks
         watch: {
 
@@ -150,6 +163,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-responsive-images');
     grunt.loadNpmTasks('grunt-uncss');
+    grunt.loadNpmTasks('grunt-ngmin'); // add the [] for production uglify
 
 
     // Task definitions

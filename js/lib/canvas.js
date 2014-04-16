@@ -83,8 +83,8 @@ var drawCircle = function() {
 
     //Create the gradient
     var grad = idGetContext.createLinearGradient(0, 0, W, H);
-    grad.addColorStop(0, 'blue');
-    grad.addColorStop(1, 'red');
+    grad.addColorStop(0, '#807B00');
+    grad.addColorStop(1, '#8ED1A3');
 
     /*
      console.log(result.W);
@@ -113,7 +113,7 @@ for(var i=0; i < num; i++ ){
     circles.push(new createCircle());
 }
 
-/*
+
 document.addEventListener(
     'touchmove',
     function(e) {
@@ -123,7 +123,6 @@ document.addEventListener(
     },
     false
 );
-*/
 
 
 

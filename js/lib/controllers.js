@@ -1,9 +1,12 @@
-'use strict';
+"use strict";
 
 // V <-$scope-> C
-angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
+angular.module('myLabApp.controllers', [
+    'ngRoute',
+    'ngResource'
+])
 
-    .controller('LabelCtrl', function ($scope) {
+    .controller('LabelCtrl', ['$scope', function ($scope) {
         // scope hack
         window.scope = $scope;
         // scope.jobTitle = "none"
@@ -16,10 +19,31 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
         // draw the circles
         setInterval(window.drawCircle,0);
 
-    })
+    }])
 
 
-    .controller('LoginCtrl', function ($scope, $location, labAPIservice) {
+    // to encapsute functionalities
+    .factory('loginService', ['$location', function($location){
+
+        return {
+
+            login: function(){
+                if ($scope.loginUser.username === 'leo') {
+                    console.log('WELCOME!');
+                    $location.path('/welcome');
+                } else {
+                    console.log('wrong username!');
+                    $location.path('/intro');
+
+                }
+            }
+
+        };
+
+    }])
+
+
+    .controller('LoginCtrl', ['$scope', 'labAPIservice', 'loginService', function ($scope, labAPIservice, loginService) {
 
         $scope.t6 = "Blog";
         $scope.t7 = "Twitter";
@@ -42,35 +66,25 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
                 $scope.usersList = response.MRData.StandingsTable.StandingsLists[0].DriverStandings;
                 console.log(response.MRData);
                 //(response.MRData.limit === '30' )? console.log('YAY') : $location.path('/intro') ;
-                if ($scope.loginUser.username === 'leo') {
-                    console.log('WELCOME!');
-                    $location.path('/welcome')
-                } else {
-                    console.log('wrong username!');
-                    $location.path('/intro');
-
-                }
+                loginService.login($scope);
             });
         };
 
+    }])
 
 
-    })
-
-
-    .controller('moreAboutMeCtrl', function ($scope) {
-
+    .controller('moreAboutMeCtrl', ['$scope', function ($scope) {
 
         $scope.t11 = "I am a front-end developer mobile web strategist and am located in London, UK. I am a passion developer how enjoy create a better code for a better world and improve experiences to look and work beautifully across any environment that can access the web.";
         $scope.t12 = "Login";
         $scope.t15 = "Contact me";
         $scope.t16 = "Coding a better code for a better world";
 
-    })
+    }])
 
 
     // define the controllers
-    .controller('MainCtrl', function ($scope) {
+    .controller('MainCtrl', ['$scope', function ($scope) {
 
         $scope.skill1 = 'javascript';
         $scope.skill2 = 'HTML5';
@@ -79,33 +93,34 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
         $scope.skill5 = 'MVC';
         $scope.skill6 = 'TDD/BDD';
 
-    })
+    }])
 
 
 
-    .controller('titleCtrl', function ($scope) {
+    .controller('titleCtrl', ['$scope', function ($scope) {
 
         $scope.t0 = "Lab - Leo Lanese";
 
-    })
+    }])
 
 
-    .controller('hoverCtrl', function ($scope) {
+    .controller('hoverCtrl', ['$scope', function ($scope) {
 
         $scope.title = "Can't touch this!";
 
-    })
+    }])
 
-    .controller('welcome', function ($scope) {
+    .controller('welcome', ['$scope', function ($scope) {
 
 
         $scope.t11  = "Welcome";
         $scope.t12 = "Page";
 
-    })
+    }])
+
 
     // add behaviour on rollover
-    .directive('showMessageWhenHovered', function (){
+    .directive('showMessageWhenHovered', [function (){
 
         return {
             // don't monkey DOM !
@@ -129,4 +144,4 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
             }
         };
 
-    });
+    }]);

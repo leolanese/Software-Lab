@@ -11,7 +11,6 @@ $grey: rgb(228, 180, 119);;
 }
 
 html {
-  background: #c30000;
   font-family: Helvetica;
 }
 
@@ -34,6 +33,7 @@ canvas {
 .more:before{
   content: '\039e';
 }
+
 
 .circular:hover {
     cursor:pointer;
