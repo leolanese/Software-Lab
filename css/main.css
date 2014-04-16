@@ -129,7 +129,7 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003127}}
-.ng-scope {
+#wrapper-content {
   padding-top: 2em;
 }
 
