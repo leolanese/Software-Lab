@@ -18,10 +18,16 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
 
     })
 
+
     .controller('LoginCtrl', function ($scope, $location, labAPIservice) {
+
+        $scope.t6 = "Blog";
+        $scope.t7 = "Twitter";
+        $scope.t8 = "e-mail";
 
         $scope.t9 = "Login";
         $scope.t10  = "More about me...";
+        $scope.t11  = "What do I do";
 
         $scope.loginUser = { username: "", password: "" };
 
@@ -45,7 +51,6 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
 
                 }
             });
-
         };
 
 
@@ -53,11 +58,12 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
     })
 
 
-    .controller('moreAboutMe', function ($scope) {
+    .controller('moreAboutMeCtrl', function ($scope) {
 
 
         $scope.t11 = "I am a front-end developer mobile web strategist and am located in London, UK. I am a passion developer how enjoy create a better code for a better world and improve experiences to look and work beautifully across any environment that can access the web.";
         $scope.t12 = "Login";
+        $scope.t15 = "Contact me";
 
     })
 
@@ -75,13 +81,6 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
     })
 
 
-    .controller('FooterCtrl', function ($scope) {
-
-        $scope.t6 = "Blog";
-        $scope.t7 = "Twitter";
-        $scope.t8 = "e-mail";
-
-    })
 
     .controller('titleCtrl', function ($scope) {
 

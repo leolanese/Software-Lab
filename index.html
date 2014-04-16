@@ -58,19 +58,11 @@
     <article class="desc" itemscope itemtype="http://schema.org/Person" ng-controller="LabelCtrl">
         <span itemprop="name">{{name}}</span></br>
         <span itemprop="jobTitle">{{jobTitle}}</span></br>
-        <span itemprop="description">{{description}}</span>
         <span itemprop="workLocation">{{workLocation}}</span>
     </article>
 
-    <article id="jumper" ng-controller="MainCtrl" >
-        <div><p>{{skill1}}</p></div>
-        <div><p>{{skill2}}</p></div>
-        <div><p>{{skill3}}</p></div>
-        <div><p>{{skill4}}</p></div>
-        <div><p>{{skill5}}</p></div>
-        <div><p>{{skill6}}</p></div>
-    </article>
 
+    <div id="view" id="jumper" ng-view></div>
 
     <!-- actually, we dont' need a RWD images solution here. This is just an example to show picturefill & grunt task works -->
     <!-- http://jsfiddle.net/leolanese/4ajpN/ -->
@@ -86,21 +78,21 @@
     </span>
 
 
-    <article class="desc links" ng-controller="FooterCtrl">
-        <span itemprop="url" ><a  href="http://www.leolanese.com/blog/">{{t6}}</a></span></br>
-        <span itemprop="url" ><a href="https://twitter.com/LeoLaneseltd">{{t7}}</a></span></br>
-        <span itemprop="email" ><a href="mailto:javascript@leolanese.com" >{{t8}}</a></span>
-    </article>
-
-
     <footer class="desc links" ng-controller="LoginCtrl">
-        <ul class="menu">
-            <li><a href="#/login" itemprop="login" >{{t9}}</a></li>
-            <li><a href="#/intro" itemprop="logout">{{t10}}</a></li>
+        <article class="desc links" >
+            <span itemprop="url" ><a  href="http://www.leolanese.com/blog/">{{t6}}</a></span></br>
+            <span itemprop="url" ><a href="https://twitter.com/LeoLaneseltd">{{t7}}</a></span></br>
+            <span itemprop="email" ><a href="mailto:javascript@leolanese.com" >{{t8}}</a></span>
+        </article>
+
+        <ul class="desc links">
+            <li><a href="#/skills" itemprop="login" >{{t11}}</a></li>
+            <li><a href="#/aboutme" itemprop="logout">{{t10}}</a></li>
+            <li><a href="#/contactme" itemprop="contactme">{{t15}}</a></li>
         </ul>
     </footer>
 
-    <div id="view" ng-view></div>
+
 
 </section>
 

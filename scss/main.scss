@@ -3,7 +3,7 @@
 */
 
 $font: 2em;
-$grey: rgb(219,219,219);
+$grey: rgb(228, 180, 119);;
 
 
 .face {
@@ -11,7 +11,7 @@ $grey: rgb(219,219,219);
 }
 
 html {
-  background: $grey;
+  background: #c30000;
   font-family: Helvetica;
 }
 
@@ -121,11 +121,23 @@ body {
     margin-left:3%;
     border-style: none;
   }
-
 }
 
-#wrapper-content {
-  padding-top: 2em;
+.texto,
+.corner {
+  left: 42%;
+  position: fixed;
+  margin-left: 5%;
+  font-size: 1.5em;
+  display: block;
+  max-width: 9em;
+}
+
+@media (min-width: 405px) {
+  .texto {
+    width: 250px;
+
+  }
 }
 
 .disclaimer{
@@ -194,12 +206,12 @@ svg {
   top: -30px;
 }
 
-.desc{
+.desc {
   position: relative;
   width: 100%;
-  padding: .8em;
 
-  span {
+  span, li {
+    padding: 10px;
     padding: 0 1% 0 -1;
     font-size: 1.5em;
     -webkit-animation: rot .6s ease-in-out 1s backwards;
@@ -216,6 +228,7 @@ svg {
 .links {
  // position: fixed;
   bottom: 0;
+  padding-top: 15px;
 }
 
 .face {
@@ -226,7 +239,6 @@ svg {
 
 .corner .title {
   white-space: nowrap;
-  white-space: nowrap;
   z-index: 9999;
   position:relative;
 }
@@ -235,10 +247,11 @@ svg {
 }
 .title a {
   color: #919191;
-  font-size: 16pt;
+  font-size: 2em;
 }
 
 .title input{
+  height: 44px;
   margin:2px 0 0 15px
 }
 .button{
@@ -293,8 +306,8 @@ li{
 }
 
 .green.button, .green.button:visited{
-  background-color: #91bd09;
   margin:12px 0 0 100px;
+  height: 44px;
 }
 
 .green.button:hover	{
@@ -332,6 +345,7 @@ input[type="text"], input[type="password"] {
   box-shadow:
     inset 0 -1px 0 #666,
     inset 3px 3px 5px #111;
+  font-size: 2em;
 }
 form:after {
   content: "";
@@ -368,6 +382,7 @@ label {
 }
 
 #wrapper_login {
+  border-top: 5px solid #000;
   margin-top: 2em;
 }
 
