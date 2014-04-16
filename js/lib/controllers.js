@@ -12,6 +12,7 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
         $scope.name = "I'm Leo.";
         $scope.jobTitle = "I'm a Front-end Developer";
         $scope.workLocation = "I'm in London, UK";
+
         // draw the circles
         setInterval(window.drawCircle,0);
 
@@ -55,7 +56,7 @@ angular.module('myLabApp.controllers', ['ngRoute','ngResource'])
     .controller('moreAboutMe', function ($scope) {
 
 
-        $scope.t11  = "I'm a web developer";
+        $scope.t11 = "I am a front-end developer mobile web strategist and am located in London, UK. I am a passion developer how enjoy create a better code for a better world and improve experiences to look and work beautifully across any environment that can access the web.";
         $scope.t12 = "Login";
 
     })
