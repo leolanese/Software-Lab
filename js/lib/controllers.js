@@ -96,7 +96,6 @@ angular.module('myLabApp.controllers', [
     }])
 
 
-
     .controller('titleCtrl', ['$scope', function ($scope) {
 
         $scope.t0 = "Lab - Leo Lanese";
@@ -112,36 +111,19 @@ angular.module('myLabApp.controllers', [
 
     .controller('welcome', ['$scope', function ($scope) {
 
-
         $scope.t11  = "Welcome";
         $scope.t12 = "Page";
 
     }])
 
-
-    // add behaviour on rollover
-    .directive('showMessageWhenHovered', [function (){
-
+    .controller('validPassword', function () {
         return {
-            // don't monkey DOM !
-            // use jqLite if possible
-
-            restrict: "A",  // A = Attribute, C = CLass, E = element,  M = HTML comment
-            link: function(scope, element, attributes) {
-
-                var originalMessage = scope.title;
-
-                element.bind("mouseover", function(){
-                    scope.message = attributes.message;
-                    window.console.warn(scope.message);
+            require: 'ngModel',
+            link: function (scope, elm, attrs, ctrl) {
+                ctrl.$parsers.unshift(function (viewValue, $scope) {
+                    var noMatch = viewValue !== scope.myForm.password.$viewValue;
+                    ctrl.$setValidity('noMatch', !noMatch);
                 });
-
-                element.bind("mouseout", function(){
-                    scope.message = originalMessage;
-                    window.console.warn(scope.message);
-                });
-
             }
         };
-
-    }]);
+    });

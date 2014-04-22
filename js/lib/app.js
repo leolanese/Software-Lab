@@ -33,6 +33,12 @@ angular.module('myLabApp', [
                 controller: 'moreAboutMeCtrl'
         });
 
+        $routeProvider.when(
+            '/login', {
+                templateUrl: 'partials/login.html',
+                controller: 'validPassword'
+        });
+
         $routeProvider.otherwise({
             redirectTo: 'intro'}
            );
@@ -41,16 +47,4 @@ angular.module('myLabApp', [
 
 // getter
 var myTestApp = angular.module('myLabApp');
-
-
-$(window).resize(function(){
-    "use strict";
-
-    $('#imageSize').text($('.featurette img').attr('src'));
-    $('#bgImageSize').text($('.bg-img').css('background-image'));
-
-});
-
-$(window).resize();
-
 
