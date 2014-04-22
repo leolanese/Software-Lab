@@ -83,8 +83,8 @@ var drawCircle = function() {
 
     //Create the gradient
     var grad = idGetContext.createLinearGradient(0, 0, W, H);
-    grad.addColorStop(0, '#807B00');
-    grad.addColorStop(1, '#8ED1A3');
+    grad.addColorStop(0, 'blue');
+    grad.addColorStop(1, '#ededed');
 
     /*
      console.log(result.W);

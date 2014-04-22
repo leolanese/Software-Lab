@@ -193,17 +193,16 @@ svg {
   border-radius: 1em;
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
-  background: url("../img/source/leo-lanese.gif") no-repeat;
   left: 5px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003194}}
 .circular span img {
   opacity: 0;
   filter: alpha(opacity=0);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003201}}
 .cor {
   font-size: 4em;
   display: inline-block;
@@ -217,12 +216,12 @@ svg {
   top: -30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003214}}
 .desc {
   position: relative;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003218}}
 .desc span, .desc li {
   padding: 10px;
   padding: 0 1% 0 -1;
@@ -236,53 +235,53 @@ svg {
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7), 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003232}}
 .coding {
   padding-top: 8em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003236}}
 .links {
   bottom: 0;
   padding-top: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003242}}
 .face {
   padding: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003248}}
 .corner .title {
   white-space: nowrap;
   z-index: 9999;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003253}}
 .corner .text {
   font-weight: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003256}}
 .title a {
   color: #919191;
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003261}}
 .title input {
   height: 44px;
   margin: 2px 0 0 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003265}}
 .button {
   margin: 2px 0 0 15px;
   border: 1px solid #efefef;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003270}}
 #dark {
   background-color: #333;
   border: 1px solid #000;
@@ -290,7 +289,7 @@ svg {
   margin-top: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003277}}
 #light {
   background-color: #FFF;
   border: 1px solid #dedede;
@@ -298,13 +297,13 @@ svg {
   margin-top: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003285}}
 li {
   list-style: none;
   padding-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003290}}
 .button {
   z-index: 999;
   position: relative;
@@ -313,7 +312,7 @@ li {
   width: 184px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003300}}
 .button, .button:visited {
   display: inline-block;
   padding: 5px 10px 6px;
@@ -330,31 +329,31 @@ li {
   margin: 2px 0 0 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003316}}
 .green.button, .green.button:visited {
   margin: 12px 0 0 100px;
   height: 44px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003321}}
 .green.button:hover {
   background-color: #749a02;
   margin: 12px 0 0 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003326}}
 form {
   margin: 100px auto;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003331}}
 form div {
   margin: 10px 0;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003336}}
 input[type="text"], input[type="password"] {
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -372,7 +371,7 @@ input[type="text"], input[type="password"] {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003358}}
 form:after {
   content: "";
   width: 300px;
@@ -389,41 +388,41 @@ form:after {
   background-image: -o-radial-gradient(center, circle contain, rgba(18, 136, 204, 0.88), transparent);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003374}}
 ::-webkit-input-placeholder {
   color: #666;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003378}}
 :-moz-placeholder {
   color: #666;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003382}}
 label {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003388}}
 .buttons {
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003392}}
 #wrapper_login {
   border-top: 5px solid #000;
   margin-top: 2em;
 }
 
 @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003399}}
   .face {
     display: inline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003402}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003403}}
   #wrapper {
     width: 480px;
     max-width: 100%;
@@ -433,29 +432,29 @@ label {
     padding-top: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003411}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003412}}
   #jumper {
     left: 120px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003416}}
   #jumper p {
     font-size: 3em;
   }
 }
 @media (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003426}}
   #jumper p {
     font-size: 4em;
   }
 }
 @media only screen and (max-width: 768px) and (orientation: landscape) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003436}}
   #jumper {
     display: none;
   }
 }
 @media (min-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003444}}
   .links {
     padding-top: 1em;
     font-size: 1.15em;
@@ -463,19 +462,19 @@ label {
 }
 /*  picturefill media-queries */
 @media (min-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003454}}
   .bg-img {
     background-image: url(http://i.imgbox.com/adkVf9kg.jpg);
   }
 }
 @media (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003460}}
   .bg-img {
     background-image: url(http://i.imgbox.com/adbzuoo7.jpg);
   }
 }
 @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003465}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003466}}
   .bg-img {
     background-image: url(http://i.imgbox.com/acpj1C0W.jpg);
   }
