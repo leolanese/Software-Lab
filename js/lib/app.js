@@ -39,11 +39,17 @@ window.angular.module('myLabApp', [
                 controller: 'validPassword'
         });
 
+        $routeProvider.when(
+            '/signin', {
+                templateUrl: 'partials/signin.html',
+                controller: 'validPassword'
+        });
+
         $routeProvider.otherwise({
             redirectTo: 'intro'}
            );
 
-    }]);
+        }]);
 
 // getter
 var myTestApp = window.angular.module('myLabApp');

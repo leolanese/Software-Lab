@@ -1,0 +1,8 @@
+<form id="jumper" name="myForm" class="login">
+
+    <label>Log-in Username</label>
+    <input type="text" id="name" name="name" ng-model="formData.name" required/>
+    <span ng-show="myForm.name.$error.required && myForm.name.$dirty">required</span>
+
+    <button type="submit" class="btn" ng-disabled="!myForm.$valid">Submit</button>
+</form>

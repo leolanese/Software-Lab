@@ -30,10 +30,10 @@ window.angular.module('myLabApp.controllers', [
 
             login: function(){
                 if ($scope.loginUser.username === 'leo') {
-                    console.log('WELCOME!');
+                    window.console.log('WELCOME!');
                     $location.path('/welcome');
                 } else {
-                    console.log('wrong username!');
+                    window.console.log('wrong username!');
                     $location.path('/intro');
 
                 }
@@ -51,8 +51,10 @@ window.angular.module('myLabApp.controllers', [
         $scope.t7 = "Twitter";
         $scope.t8 = "e-mail";
 
-        $scope.t9 = "Login";
-        $scope.t10  = "More about me...";
+        $scope.t9 = "Log-in";
+        $scope.t91  = "Sign-in";
+
+        $scope.t10  = "About me...";
         $scope.t11  = "What do I do";
 
         $scope.loginUser = { username: "", password: "" };
@@ -66,7 +68,7 @@ window.angular.module('myLabApp.controllers', [
             labAPIservice.getDrivers().success(function (response) {
                 //Digging into the response to get the relevant data
                 $scope.usersList = response.MRData.StandingsTable.StandingsLists[0].DriverStandings;
-                console.log(response.MRData);
+                window.console.log(response.MRData);
                 //(response.MRData.limit === '30' )? console.log('YAY') : $location.path('/intro') ;
                 loginService.login($scope);
             });
