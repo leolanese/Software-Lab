@@ -1,13 +1,11 @@
-'use strict';
-
-/* Services */
 
 
 // Demonstrate how to register services
 // In this case it is a simple value service.
-angular.module('myLabApp.services', [])
+window.angular.module('myLabApp.services', [])
 
     .factory('labAPIservice', function($http) {
+        "use strict";
 
         var labAPI = {};
 
@@ -20,5 +18,3 @@ angular.module('myLabApp.services', [])
 
         return labAPI;
     });
-
-

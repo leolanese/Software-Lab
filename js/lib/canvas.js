@@ -41,7 +41,7 @@ var createCircle = function(){
     this.vy = -this.vx;
 
     //Random Radius
-    this.rad = 10 + Math.random() * 33;
+    this.rad = 10 + Math.random() * 22;
 };
 
 

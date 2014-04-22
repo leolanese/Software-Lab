@@ -13,12 +13,11 @@
         "MediaPlayer": false,
         "globalstrict": true
     },
-    "strict": true,
+    "strict": false,
     "trailing": true,
     "maxdepth": 3,
     "maxstatements": 20,
     "maxcomplexity": 5,
-
     "asi": false,
     "boss": false,
     "debug": false,

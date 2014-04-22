@@ -86,9 +86,11 @@ section {
 }
 
 #jumper.login {
+  -webkit-perspective: 500px;
   left: 130px;
   width: 15em;
   top: 3em;
+
 }
 
 #jumper {
@@ -273,7 +275,7 @@ svg {
 .links {
  // position: fixed;
   bottom: 0;
-  padding-top: 0;
+  padding-top: 15px;
 }
 
 .face {

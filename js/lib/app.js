@@ -1,6 +1,6 @@
 // setter $templateCache
 // define the namespace and Router (SPA)
-angular.module('myLabApp', [
+window.angular.module('myLabApp', [
     'ngRoute',
     'ngResource',
     'myLabApp.services',
@@ -46,5 +46,4 @@ angular.module('myLabApp', [
     }]);
 
 // getter
-var myTestApp = angular.module('myLabApp');
-
+var myTestApp = window.angular.module('myLabApp');
