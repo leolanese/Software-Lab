@@ -35,11 +35,15 @@ canvas {
 }
 
 
-.circular:hover {
+.circular {
+
+  &:hover {
     cursor:pointer;
     -webkit-transform: scale(1.2) ;
     -moz-transform: scale(1.2) ;
     transform: scale(1.2) ;
+  }
+
 }
 
 section {
@@ -437,7 +441,7 @@ and (orientation : landscape) {
 @media (min-width:500px){
 
   .links {
-      padding-top: 2em;
+      padding-top: 1em;
       font-size: 1.15em;
   }
 
