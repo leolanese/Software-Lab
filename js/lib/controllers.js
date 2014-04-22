@@ -21,8 +21,7 @@ window.angular.module('myLabApp.controllers', [
 
     }])
 
-
-    // to encapsute functionalities
+    // to encapsulate functionality
     .factory('loginService', ['$location', function($location){
         "use strict";
 
@@ -43,22 +42,18 @@ window.angular.module('myLabApp.controllers', [
 
     }])
 
-
     .controller('LoginCtrl', ['$scope', 'labAPIservice', 'loginService', function ($scope, labAPIservice, loginService) {
         "use strict";
 
         $scope.t6 = "Blog";
         $scope.t7 = "Twitter";
         $scope.t8 = "e-mail";
-
         $scope.t9 = "Log-in";
         $scope.t91  = "Sign-in";
-
         $scope.t10  = "About me...";
         $scope.t11  = "What do I do";
 
         $scope.loginUser = { username: "", password: "" };
-
 
         $scope.loginNow = function(){
             // redirecting user using router ($location) and services (JSONP)
@@ -76,7 +71,6 @@ window.angular.module('myLabApp.controllers', [
 
     }])
 
-
     .controller('moreAboutMeCtrl', ['$scope', function ($scope) {
         "use strict";
 
@@ -86,7 +80,6 @@ window.angular.module('myLabApp.controllers', [
         $scope.t16 = "Coding a better code for a better world";
 
     }])
-
 
     // define the controllers
     .controller('MainCtrl', ['$scope', function ($scope) {
@@ -101,14 +94,12 @@ window.angular.module('myLabApp.controllers', [
 
     }])
 
-
     .controller('titleCtrl', ['$scope', function ($scope) {
         "use strict";
 
         $scope.t0 = "Lab - Leo Lanese";
 
     }])
-
 
     .controller('hoverCtrl', ['$scope', function ($scope) {
         "use strict";
@@ -125,7 +116,7 @@ window.angular.module('myLabApp.controllers', [
 
     }])
 
-    .controller('validPassword', function () {
+    .controller('validPassword', ['$scope', function ($scope) {
         "use strict";
 
         return {
@@ -137,4 +128,4 @@ window.angular.module('myLabApp.controllers', [
                 });
             }
         };
-    });
+    }]);

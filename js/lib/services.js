@@ -1,5 +1,3 @@
-
-
 // Demonstrate how to register services
 // In this case it is a simple value service.
 window.angular.module('myLabApp.services', [])
@@ -12,7 +10,7 @@ window.angular.module('myLabApp.services', [])
             labAPI.getDrivers = function() {
             return $http({
                 method: 'JSONP',
-                url: 'http://ergast.com/api/f1/2013/driverStandings.json?callback=JSON_CALLBACK'
+                url: 'http://www.leolanese.com/lab/json/lab.json?callback=JSON_CALLBACK'
             });
         };
 
