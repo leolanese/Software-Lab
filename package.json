@@ -27,6 +27,7 @@
   "dependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-less": "~0.10.0",
-    "imager.js": "^0.2.0"
+    "imager.js": "^0.2.0",
+    "requirejs": "^2.1.11"
   }
 }

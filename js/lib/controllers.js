@@ -50,7 +50,7 @@ window.angular.module('myLabApp.controllers', [
         $scope.t8 = "e-mail";
         $scope.t9 = "Log-in";
         $scope.t91  = "Sign-in";
-        $scope.t10  = "About me...";
+        $scope.t10  = "About me";
         $scope.t11  = "What do I do";
 
         $scope.loginUser = { username: "", password: "" };
