@@ -1,3 +1,5 @@
+"use strict";
+
 // V <-$scope-> C
 window.angular.module('myLabApp.controllers', [
     'ngRoute',
@@ -72,7 +74,6 @@ window.angular.module('myLabApp.controllers', [
 
         };
 
-
         //Function to draw the background
         var drawCircle = function() {
 
@@ -134,7 +135,6 @@ window.angular.module('myLabApp.controllers', [
 
 
     .controller('LabelCtrl', ['$scope', function ($scope) {
-        "use strict";
 
         // scope hack
         window.scope = $scope;
@@ -152,7 +152,6 @@ window.angular.module('myLabApp.controllers', [
 
     // to encapsulate functionality
     .factory('loginService', ['$location', function($location){
-        "use strict";
 
         return {
 
@@ -172,7 +171,6 @@ window.angular.module('myLabApp.controllers', [
     }])
 
     .controller('LoginCtrl', ['$scope', 'labAPIservice', 'loginService', function ($scope, labAPIservice, loginService) {
-        "use strict";
 
         $scope.t6 = "Blog";
         $scope.t7 = "Twitter";
@@ -201,7 +199,6 @@ window.angular.module('myLabApp.controllers', [
     }])
 
     .controller('moreAboutMeCtrl', ['$scope', function ($scope) {
-        "use strict";
 
         $scope.t11 = "I am a front-end developer mobile web strategist and am located in London, UK. I am a passion developer how enjoy create a better code for a better world and improve experiences to look and work beautifully across any environment that can access the web.";
         $scope.t12 = "Login";
@@ -212,7 +209,6 @@ window.angular.module('myLabApp.controllers', [
 
     // define the controllers
     .controller('MainCtrl', ['$scope', function ($scope) {
-        "use strict";
 
         $scope.skill1 = 'javascript';
         $scope.skill2 = 'HTML5';
@@ -224,21 +220,18 @@ window.angular.module('myLabApp.controllers', [
     }])
 
     .controller('titleCtrl', ['$scope', function ($scope) {
-        "use strict";
 
         $scope.t0 = "Lab - Leo Lanese";
 
     }])
 
     .controller('hoverCtrl', ['$scope', function ($scope) {
-        "use strict";
 
         $scope.title = "Can't touch this!";
 
     }])
 
     .controller('welcome', ['$scope', function ($scope) {
-        "use strict";
 
         $scope.t11  = "Welcome";
         $scope.t12 = "Page";
@@ -246,7 +239,6 @@ window.angular.module('myLabApp.controllers', [
     }])
 
     .controller('validPassword', ['$scope', function ($scope) {
-        "use strict";
 
         return {
             require: 'ngModel',
