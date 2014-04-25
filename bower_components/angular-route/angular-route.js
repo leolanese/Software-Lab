@@ -459,7 +459,7 @@ function $RouteProvider(){
      * Check if the route matches the current url.
      *
      * Inspired by match in
-     * visionmedia/express/lib/router/router.js.
+     * visionmedia/express/lib/router/routes.js.
      */
     function switchRouteMatcher(on, route) {
       var keys = route.keys,

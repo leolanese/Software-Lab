@@ -19,10 +19,8 @@
 
     <meta content="height=device-height,width=device-width,initial-scale=-1.0,user-scalable=1" name="viewport" />
 
-    <link rel="stylesheet" href="../bower_components/normalize-css"/>
+    <link rel="stylesheet" href="./bower_components/normalize-css"/>
     <link rel="stylesheet" href="./css/main.css" />
-
-    <script data-main="js/app" src="../bower_components/requirejs/require.js"></script>
 
     <link rel="apple-touch-icon" href="./images/cv.png" />
 
@@ -54,7 +52,7 @@
 <![endif]-->
 <noscript>Sorry, your browser does not support JavaScript. Please, update you browser engine.</noscript>
 
-<canvas id="canvas"></canvas>
+<canvas id="canvas" ng-controller="AnimateCtrl"></canvas>
 
 <section id="wrapper" ng-app="myLabApp">
     <div class="gradient"></div>
@@ -105,7 +103,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.js"></script>
 <script src="./bower_components/angular-route/angular-route.js"></script>
 
-<script src="js/lib/router.js"></script>
+<script src="js/lib/routes.js"></script>
 <script src="js/lib/services.js"></script>
 <script src="js/lib/controllers.js"></script>
 
