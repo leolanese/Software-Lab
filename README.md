@@ -74,5 +74,5 @@ Small: iPhone
 # Twitter:
 <a href="http://twitter.com/LeoLaneseltd">http://twitter.com/LeoLaneseltd</a>
 
-# Questions?
+# Questions / Suggestion?
 Follow me at: <a href="mail:to">developer@leolanese.com</a>
