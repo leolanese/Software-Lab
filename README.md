@@ -7,6 +7,9 @@ These comments are there to help, and lead us to create a better code.
 If you find a bug or a better way to improve the code, please let me know. I'm happy to fix and improve the
 code together :)
 
+# Web Code
+<a href="http://sirwilliam.github.io/lab/">http://sirwilliam.github.io/lab/</a>
+
 # Skills  I have used (the usual suspects):
 - javascript<br>
 - HTML5<br>
