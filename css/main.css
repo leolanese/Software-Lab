@@ -266,7 +266,7 @@ svg {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Leo\/Documents\/root\/lab\/scss\/main\.scss}line{font-family:\00003257}}
 .desc span, .desc li {
-  padding-left: 10px;
+  padding-left: 5px;
   font-size: 1.5em;
   -webkit-animation: rot .6s ease-in-out 1s backwards;
   -moz-animation: rot .8s ease-in-out 1s backwards;
