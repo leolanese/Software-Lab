@@ -1,7 +1,7 @@
 ### My AngularJS Lab
 ------
 
-I'm Leo Lanese, here you could find my Lab.
+I'm Leo Lanese (@<a href="http://twitter.com/@leolaneseltd">@leolaneseltd</a>), here you could find my Lab.
 Containing test with new trends, inside the code you can find a lot of comments.
 These comments are there to help, and lead us to create a better code.
 If you find a bug or a better way to improve the code, please let me know. I'm happy to fix and improve the
@@ -13,7 +13,7 @@ code together :)
 - CSS3<br>
 
 # Tools I have used:
-- node.js
+- node.js<br>
 ├── grunt<br>
 ├── compass<br>
 ├── jshint<br>
@@ -23,7 +23,7 @@ code together :)
 └── ngmin<br>
 
 
-- Grunt.js
+- Grunt.js<br>
 ├── grunt.loadNpmTasks('grunt-contrib-watch');<br>
 ├── grunt.loadNpmTasks('grunt-contrib-requirejs');<br>
 ├── grunt.loadNpmTasks('grunt-contrib-jshint');<br>
