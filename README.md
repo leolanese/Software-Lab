@@ -8,38 +8,38 @@ If you find a bug or a better way to improve the code, please let me know. I'm h
 code together :)
 
 # Skills  I have used (the usual suspects):
-- javascript
-- HTML5
-- CSS3
+- javascript<br>
+- HTML5<br>
+- CSS3<br>
 
 # Tools I have used:
 - node.js
-├── grunt
-├── compass
-├── jshint
-├── requirejs
-├── sass
-├── watch
-└── ngmin
+├── grunt<br>
+├── compass<br>
+├── jshint<br>
+├── requirejs<br>
+├── sass<br>
+├── watch<br>
+└── ngmin<br>
 
 
 - Grunt.js
-├── grunt.loadNpmTasks('grunt-contrib-watch');
-├── grunt.loadNpmTasks('grunt-contrib-requirejs');
-├── grunt.loadNpmTasks('grunt-contrib-jshint');
-├── grunt.loadNpmTasks('grunt-contrib-sass');
-├── grunt.loadNpmTasks('grunt-contrib-compass');
-├── grunt.loadNpmTasks('grunt-contrib-csslint');
-└── grunt.loadNpmTasks('grunt-ngmin');
+├── grunt.loadNpmTasks('grunt-contrib-watch');<br>
+├── grunt.loadNpmTasks('grunt-contrib-requirejs');<br>
+├── grunt.loadNpmTasks('grunt-contrib-jshint');<br>
+├── grunt.loadNpmTasks('grunt-contrib-sass');<br>
+├── grunt.loadNpmTasks('grunt-contrib-compass');<br>
+├── grunt.loadNpmTasks('grunt-contrib-csslint');<br>
+└── grunt.loadNpmTasks('grunt-ngmin');<br>
 
 
-- Bower.js
-├── angular#1.2.16
-├── jquery#1.10.2 (latest is 2.1.1-rc2)
-├── modernizr#2.6.3 (latest is 2.7.2)
-├── normalize-css#3.0.1 extraneous
-├── requirejs#2.1.11 extraneous
-└── requirejs-text#2.0.12 extraneous
+- Bower.js<br>
+├── angular#1.2.16<br>
+├── jquery#1.10.2 (latest is 2.1.1-rc2)<br>
+├── modernizr#2.6.3 (latest is 2.7.2)<br>
+├── normalize-css#3.0.1 extraneous<br>
+├── requirejs#2.1.11 extraneous<br>
+└── requirejs-text#2.0.12 extraneous<br>
 
 
 # Libraries:
