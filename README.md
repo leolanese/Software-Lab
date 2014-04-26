@@ -56,7 +56,7 @@ Medium: Chrome, safari, iPad
 Small: iPhone
 
 
-<br><br>
+<br>
 -----
 
 # My Blog:
