@@ -19,10 +19,10 @@
 
     <meta content="height=device-height,width=device-width,initial-scale=-1.0,user-scalable=1" name="viewport" />
 
-    <link rel="stylesheet" href="./bower_components/normalize-css/normalize.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" ng-href="./bower_components/normalize-css/normalize.css" />
+    <link rel="stylesheet" ng-href="./css/main.css" />
 
-    <link rel="apple-touch-icon" href="./images/cv.png" />
+    <link rel="apple-touch-icon" ng-href="./images/cv.png" />
 
     <!-- Favicon 32x32 png -->
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
@@ -81,15 +81,15 @@
 
     <footer class="desc links" ng-controller="LoginCtrl">
         <article class="desc links" >
-            <span itemprop="url" ><a  href="http://www.leolanese.com/blog/" target="_blank">{{t6}}</a></span></br>
-            <span itemprop="url" ><a href="https://twitter.com/LeoLaneseltd" target="_blank">{{t7}}</a></span></br>
-            <span itemprop="email" ><a href="mailto:javascript@leolanese.com">{{t8}}</a></span>
+            <span itemprop="url" ><a  ng-href="http://www.leolanese.com/blog/" target="_blank">{{t6}}</a></span></br>
+            <span itemprop="url" ><a ng-href="https://twitter.com/LeoLaneseltd" target="_blank">{{t7}}</a></span></br>
+            <span itemprop="email" ><a ng-href="mailto:javascript@leolanese.com">{{t8}}</a></span>
         </article>
 
         <ul class="desc links">
-            <li><a href="#/skills" >{{t11}}</a></li>
-            <li><a href="#/aboutme" >{{t10}}</a></li>
-            <li><a href="#/login" itemprop="login">{{t9}} </a>/<a href="#/signin" itemprop="login"> {{t91}}</a></li>
+            <li><a ng-href="#/skills" >{{t11}}</a></li>
+            <li><a ng-href="#/aboutme" >{{t10}}</a></li>
+            <li><a ng-href="#/login" itemprop="login">{{t9}} </a>/<a ng-href="#/signin" itemprop="login"> {{t91}}</a></li>
         </ul>
     </footer>
 
