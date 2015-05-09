@@ -72,7 +72,7 @@ Small: iPhone
 <a href="http://www.leolanese.com">http://www.leolanese.com</a>
 
 # Twitter:
-<a href="http://twitter.com/LeoLaneseltd">http://twitter.com/LeoLaneseltd</a>
+Follow me at: <a href="http://twitter.com/LeoLaneseltd">http://twitter.com/LeoLaneseltd</a>
 
 # Questions / Suggestion?
-Follow me at: <a href="mail:to">developer@leolanese.com</a>
+<a href="mail:to">angularjs@leolanese.com</a>
