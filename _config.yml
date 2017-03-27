@@ -1,0 +1,8 @@
+title: Lab
+description: I'm Leo, and this is my Lab.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
