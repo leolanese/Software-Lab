@@ -1,7 +1,7 @@
 ### My AngularJS Lab
 ------
 
-I'm Leo Lanese (@<a href="http://twitter.com/@leolaneseltd">@leolaneseltd</a>), here you could find my Lab.
+I'm Leo Lanese (<a href="http://twitter.com/@leolaneseltd">@leolaneseltd</a>), here you could find my Lab.
 Containing test with new trends, inside the code you can find a lot of comments.
 These comments are there to help, and lead us to create a better code.
 If you find a bug or a better way to improve the code, please let me know. I'm happy to fix and improve the
