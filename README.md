@@ -50,23 +50,19 @@ rwd-reset.css (https://github.com/sirwilliam/rwd-reset)
 
 
 # IDE
-WebStorm 8
+WebStorm 10
 
 
 # TEST
 Large: Chrome, safari
 Medium: Chrome, safari, iPad
-Small: iPhone
-
+Small: iPhone5s
 
 <br>
 -----
 
 # My Blog:
 <a href="www.leolanese.com/blog">www.leolanese.com/blog</a>
-
-# My LAB
-<a href="http://www.rwdlab.com">http://www.rwdlab.com</a>
 
 # My Portfolio
 <a href="http://www.leolanese.com">http://www.leolanese.com</a>
