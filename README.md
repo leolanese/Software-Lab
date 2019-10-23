@@ -59,16 +59,20 @@ Medium: Chrome, safari, iPad
 Small: iPhone5s
 
 <br>
------
+--
 
-# My Blog:
-<a href="www.leolanese.com/blog">www.leolanese.com/blog</a>
+### { 'Leo Lanese',
+###   'I Build Inspiring Responsive Reactive Solutions',
+###   'London, UK' }
 
-# My Portfolio
-<a href="http://www.leolanese.com">http://www.leolanese.com</a>
+### Portfolio<br>
+<a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a><br>
 
-# Twitter:
-Follow me at: <a href="http://twitter.com/LeoLaneseltd">http://twitter.com/LeoLaneseltd</a>
+### Blog:<br>
+<a href="http://www.leolanese.com/blog" target="_blank">www.leolanese.com/blog</a><br>
 
-# Questions / Suggestion?
-<a href="mail:to">angularjs@leolanese.com</a>
+### Twitter:<br>
+Follow me at:<a href="http://twitter.com/LeoLaneseltd" target="_blank">http://twitter.com/LeoLaneseltd</a><br>
+
+### Questions / Suggestion / Recommendation ?<br>
+<a href="mail:to">developer@leolanese.com</a><br>
