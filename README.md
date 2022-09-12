@@ -1,4 +1,4 @@
-### My AngularJS Lab
+### My Software Lab
 ------
 
 I'm Leo Lanese (<a href="http://twitter.com/@leolaneseltd">@leolaneseltd</a>), here you could find my Lab.
