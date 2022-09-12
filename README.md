@@ -58,8 +58,9 @@ Large: Chrome, safari
 Medium: Chrome, safari, iPad
 Small: iPhone5s
 
-<br>
+
 ---
+
 ### <i>Thanks!</i>
 
 >  { 'Leo Lanese',<br>
